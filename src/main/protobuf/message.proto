@@ -1,0 +1,20 @@
+syntax = 'proto2';
+
+package ChatRabbitMQ;
+
+option java_package = "br.ufs.dcomp.ChatRabbitMQ";
+option java_outer_classname = "ChatProtoBuf";
+
+message Mensagem{
+     required string sender = 1;
+     required string date = 2;
+     required string time = 3;
+     optional string group = 4;
+
+     message Conteudo{
+           required string type = 1;
+           required bytes body = 2;
+           optional string name = 3;
+     }
+     required Conteudo content = 5;
+}
