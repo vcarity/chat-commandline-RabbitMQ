@@ -6,6 +6,8 @@ Para ter acesso a um servidor de mensagem, deve-se criar uma conta gratuita no s
 
 https://www.cloudamqp.com/plans.html
 
+PS: Modigiquei todas as chaves para placeholders. Para fazer uso desta versão é possível fornecer as chaves corretas.
+
 
 ## Interface do Chat
 
